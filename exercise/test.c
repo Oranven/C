@@ -1,17 +1,15 @@
 #include <stdio.h>
 int main()
 {
-	int hour1, minutes1;
-	int hour2, minutes2;
-	
-	scanf_s("%d %d", &hour1,&minutes1);
-	scanf_s("%d %d", &hour2,&minutes2);
+	printf("请输入两个整数:");
 
-	int t1 = hour1 * 60 + minutes1;
-	int t2 = hour2 * 60 + minutes2;
-	int t = t2 - t1;
+	int a, b;
 
-	printf("现在的时差是%d h %d min。", t / 60, t % 60);
+	scanf_s("%d %d",&a, &b);
+
+	double c = (a + b) / 2.0;
+
+	printf("这两个整数%d和%d的平均数为：%f",a, b, c);
 
 	return 0;
 }
