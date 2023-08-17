@@ -1,15 +1,14 @@
 #include <stdio.h>
 int main()
 {
-	printf("请输入两个整数:");
+	int a = 5;
+	int b = 6;
+	int c;
 
-	int a, b;
+	c = a;
+	a = b;
+	b = c;
 
-	scanf_s("%d %d",&a, &b);
-
-	double c = (a + b) / 2.0;
-
-	printf("这两个整数%d和%d的平均数为：%f",a, b, c);
-
+	printf("a=%d,b=%d", a, b);
 	return 0;
 }
