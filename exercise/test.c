@@ -1,15 +1,13 @@
 #include <stdio.h>
 int main()
 {
-	int a;
+	int A, B;
+	scanf_s("%d %d", &A, &B);
 
-	a = 10;
-
-	printf("a++=%d\n", a++);
-	printf("a=%d\n", a);
-	printf("++a=%d\n", ++a);
-	printf("a=%d\n", a);
+	printf("%d+%d=%d\n", A, B, A + B);
+	printf("%d-%d=%d\n", A, B, A - B);
+	printf("%d*%d=%d\n", A, B, A * B);
+	printf("%d/%d=%d\n", A, B, A / B);
 	
-
 	return 0;
 }
