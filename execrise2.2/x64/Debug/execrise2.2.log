@@ -1,0 +1,3 @@
+﻿  execrise2.2.c
+E:\Oranven\exercise\execrise2.2\execrise2.2.c(10,46): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  execrise2.2.vcxproj -> E:\Oranven\exercise\x64\Debug\execrise2.2.exe
